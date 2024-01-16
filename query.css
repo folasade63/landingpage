@@ -1,0 +1,88 @@
+/* import another css file  */
+/* @import url(style.css); */
+/* media query  */
+/* max-width */
+/* @media (max-width: 600px) {
+  body {
+    border-color: red;
+  }
+} */
+
+/* @media (max-width: 950px) {
+  body {
+    border: 5px solid green;
+    border-color: green;
+  }
+
+*/
+/* min-width */
+/* @media (min-width: 700px) {
+  .text-container h3 {
+    color: red;
+  }
+} */
+
+@media (max-width: 900px) {
+  header nav {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .term {
+    width: 80%;
+  }
+
+  .us {
+    flex-direction: row;
+  }
+
+  .div,
+  .plans-container,
+  .overall {
+    flex-direction: column;
+  }
+  .top-faces li {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .skills {
+    width: 40%;
+  }
+  .top-faces li {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .term {
+    width: 90%;
+  }
+  .strength {
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+  .skills {
+    width: 70%;
+  }
+  .png {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .group {
+    flex-direction: column;
+  }
+}
